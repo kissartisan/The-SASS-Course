@@ -26,9 +26,35 @@ h2, h3 {
   -moz-box-shadow: 0 5px 10px #555;
   box-shadow: 0 5px 10px #555;
   background: #036;
-  background: -webkit-linear-gradient(orangered, yellow);
-  background: -o-linear-gradient(orangered, yellow);
-  background: -moz-linear-gradient(orangered, yellow);
-  background: linear-gradient(orangered, yellow); }
+  background: -webkit-linear-gradient(blue, yellow);
+  background: -o-linear-gradient(blue, yellow);
+  background: -moz-linear-gradient(blue, yellow);
+  background: linear-gradient(blue, yellow); }
+
+#box2 {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 10px #000;
+  -moz-box-shadow: 0 5px 10px #000;
+  box-shadow: 0 5px 10px #000;
+  background: #036;
+  background: -webkit-linear-gradient(#639, #fc3);
+  background: -o-linear-gradient(#639, #fc3);
+  background: -moz-linear-gradient(#639, #fc3);
+  background: linear-gradient(#639, #fc3); }
+
+#box3 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px #ddd;
+  -moz-box-shadow: 0 5px 10px #ddd;
+  box-shadow: 0 5px 10px #ddd;
+  background: #036;
+  background: -webkit-linear-gradient(black, teal);
+  background: -o-linear-gradient(black, teal);
+  background: -moz-linear-gradient(black, teal);
+  background: linear-gradient(black, teal); }
 
 /*# sourceMappingURL=app.css.map */

@@ -3,18 +3,10 @@
     width: 100px
     background: #036
     display: inline-block
+    +box(100%, #555, blue, yellow)
 
-    -webkit-border-radius: 100%
-    -moz-border-radius: 100%
-    border-radius: 100%
+#box2
+    +box(20px, #000, #639, #fc3)
 
-
-    -webkit-box-shadow: 0 5px 10px #555
-    -moz-box-shadow: 0 5px 10px #555
-    box-shadow: 0 5px 10px #555
-
-    background: #036
-    background: -webkit-linear-gradient(orangered, yellow)
-    background: -o-linear-gradient(orangered, yellow)
-    background: -moz-linear-gradient(orangered, yellow)
-    background: linear-gradient(orangered, yellow)
+#box3
+    +box(5px, #ddd, black, teal)
