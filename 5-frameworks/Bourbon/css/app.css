@@ -1,0 +1,91 @@
+/* PLUGINS */
+/* BASE STYLES */
+body {
+  font-family: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace;
+  font-size: 14px;
+  background: #c69; }
+
+.brand {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-image: url("../img/bourbon-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 111px;
+  margin: 30px auto; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .brand {
+      background-image: url("../img/bourbon-logo_2x.png");
+      background-size: 294px 56px; } }
+
+h2, h3 {
+  font-size: 25.2px;
+  font-weight: normal;
+  text-align: center; }
+
+h3 {
+  background: #3333ff;
+  color: white;
+  padding: 10px 0;
+  font-size: 19.6px;
+  text-transform: uppercase; }
+
+section::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+footer {
+  text-align: center;
+  color: #df9fbf; }
+
+/* LAYOUTS */
+header {
+  text-align: center; }
+
+.container {
+  padding: 30px;
+  width: 960px;
+  margin: 30px auto;
+  box-sizing: border-box;
+  background: white;
+  position: relative; }
+  .container::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    top: 10px;
+    left: -10px;
+    background: #bf4080;
+    box-shadow: -10px 10px 0 #c6538c; }
+
+article {
+  -webkit-columns: 3 200px;
+  -moz-columns: 3 200px;
+  columns: 3 200px;
+  -webkit-column-rule: solid 1px #ccc;
+  -moz-column-rule: solid 1px #ccc;
+  column-rule: solid 1px #ccc;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px; }
+
+/* MODULES */
+.box {
+  height: 100px;
+  width: 280px;
+  background: #5c8a8a;
+  float: left;
+  color: white;
+  border: solid 1px #527a7a;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 30px 0 0; }
+  .box:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=app.css.map */
