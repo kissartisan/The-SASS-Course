@@ -81,6 +81,11 @@ header {
     background: #bf4080;
     box-shadow: -10px 10px 0 #c6538c; }
 
+section::after {
+  clear: both;
+  content: "";
+  display: block; }
+
 #example1 article {
   float: left;
   display: block;
@@ -88,6 +93,127 @@ header {
   width: 48.8211739883%; }
   #example1 article:last-child {
     margin-right: 0; }
+
+#example2 aside {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 14.7019566472%; }
+  #example2 aside:last-child {
+    margin-right: 0; }
+#example2 article {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 82.9403913294%;
+  margin-right: 0; }
+  #example2 article:last-child {
+    margin-right: 0; }
+#example2 .item1 {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%; }
+  #example2 .item1:last-child {
+    margin-right: 0; }
+#example2 .item2 {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%;
+  margin-right: 0; }
+  #example2 .item2:last-child {
+    margin-right: 0; }
+#example2 .item3 {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 57.3509783236%; }
+  #example2 .item3:last-child {
+    margin-right: 0; }
+#example2 .item4 {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 40.291369653%;
+  margin-right: 0; }
+  #example2 .item4:last-child {
+    margin-right: 0; }
+
+#example3 aside {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 31.7615653177%; }
+  #example3 aside:last-child {
+    margin-right: 0; }
+#example3 article {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%; }
+  #example3 article:last-child {
+    margin-right: 0; }
+  #example3 article div {
+    float: left;
+    display: block;
+    margin-right: 3.5786642602%;
+    width: 48.2106678699%; }
+    #example3 article div:last-child {
+      margin-right: 0; }
+
+#example4 article {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 65.8807826589%;
+  margin-left: 17.0596086706%; }
+  #example4 article:last-child {
+    margin-right: 0; }
+
+#example5 li {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 14.7019566472%; }
+  #example5 li:last-child {
+    margin-right: 0; }
+  #example5 li:nth-child(6n) {
+    margin-right: 0; }
+  #example5 li:nth-child(6n+1) {
+    clear: left; }
+
+#example6 li {
+  float: left;
+  display: block;
+  margin-right: 2.3576520234%;
+  width: 14.7019566472%; }
+  #example6 li:last-child {
+    margin-right: 0; }
+  #example6 li:nth-child(6n) {
+    margin-right: 0; }
+  #example6 li:nth-child(6n+1) {
+    clear: left; }
+  @media screen and (max-width: 768px) {
+    #example6 li {
+      float: left;
+      display: block;
+      margin-right: 3.5786642602%;
+      width: 48.2106678699%; }
+      #example6 li:last-child {
+        margin-right: 0; }
+      #example6 li:nth-child(2n) {
+        margin-right: 0; }
+      #example6 li:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (max-width: 480px) {
+    #example6 li {
+      float: left;
+      display: block;
+      margin-right: 7.4229717578%;
+      width: 100%; }
+      #example6 li:last-child {
+        margin-right: 0; } }
 
 /* MODULES */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
